@@ -1,4 +1,5 @@
 package page;
+
 import com.codeborne.selenide.SelenideElement;
 import data.DataHelper;
 
@@ -10,7 +11,7 @@ public class TransferPage {
     private SelenideElement cardNumberField = $("[data-test-id='from'] input");
     private SelenideElement putMoneyButton = $("[data-test-id='action-transfer']");
 
-    public DashboardPage putMoneyCard(DataHelper.MoneyTransfer info) {
+    public DashboardPage putMoneyCard(CardChoicePage.MoneyTransfer info) {
         countField.setValue(info.getAmount());
         cardNumberField.setValue(info.getCardNumber());
         putMoneyButton.click();
