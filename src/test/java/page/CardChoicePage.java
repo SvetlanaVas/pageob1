@@ -1,11 +1,8 @@
 package page;
 
 import com.codeborne.selenide.SelenideElement;
-import data.DataHelper;
 import lombok.Value;
-
 import java.util.Random;
-
 import static com.codeborne.selenide.Selenide.$;
 
 public class CardChoicePage {

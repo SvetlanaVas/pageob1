@@ -2,7 +2,6 @@ package test;
 import data.DataHelper;
 import page.CardChoicePage;
 import lombok.*;
-//import page.CheckBalancePage;
 import org.junit.jupiter.api.Test;
 import page.LoginPage;
 import page.TransferPage;
