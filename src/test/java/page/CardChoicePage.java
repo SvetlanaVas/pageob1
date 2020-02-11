@@ -33,15 +33,6 @@ public class CardChoicePage {
         return secondCardNumber;
     }
 
-    /*public static double getFirstCardBalanceIfAmountDoubleBeforeTransfer() {
-        String str = firstCardString.toString();
-        return getCardBalanceIfAmountDouble(str);
-    }
-    public static double getSecondCardBalanceIfAmountDoubleBeforeTransfer() {
-        String str = secondCardString.toString();
-        return getCardBalanceIfAmountDouble(str);
-    }*/
-
 
     public static int getRandomAmount(int max) {
         Random random = new Random();
